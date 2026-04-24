@@ -1,0 +1,34 @@
+# --- Bağımlılıklar (Dependencies) ---
+# En ağır klasör. Her zaman terminalden 'npm install' ile kurulmalıdır.
+node_modules/
+jspm_packages/
+
+# --- Derleme Çıktıları (Build Outputs) ---
+# React, Vue veya TypeScript derlemeleri sonucu oluşan klasörler.
+dist/
+build/
+out/
+.next/
+.cache/
+
+# --- Güvenlik & Ortam Değişkenleri (Security) ---
+# Şifreler, API anahtarları ve veritabanı url'leri burada tutulur. 
+# ASLA GitHub'a gitmemelidir.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Log Dosyaları ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# --- IDE & Sistem Dosyaları ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
