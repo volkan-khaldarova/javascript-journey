@@ -10,6 +10,8 @@ Currently, this repository contains the following active module. Each directory 
 
 * **[01-kelvin-weather](./01-kelvin-weather/)**: A temperature conversion utility built with strict error handling and pure functions.
 
+* **[02-dog-years](./02-dog-years-js/app.js)**: This project is a simple JavaScript utility that converts a human's age into "dog years." It follows a specific biological maturity model where a dog's first two years account for more growth than their subsequent years.
+
 ## 🛠️ Tech Stack
 * Vanilla JavaScript (ES6+)
 * Node.js (for local execution)
